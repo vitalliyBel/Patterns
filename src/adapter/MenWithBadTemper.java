@@ -3,7 +3,7 @@ package adapter;
 public class MenWithBadTemper {
 
     public void  HeFellInLove(){
-        System.out.println("Влюбился");
+        System.out.println("Влюбился в нее");
     }
 
     public void HeGottenBetter(){

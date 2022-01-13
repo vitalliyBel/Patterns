@@ -16,18 +16,24 @@ public  class AdapterLove implements Love {
 
 
 
-    @Override
-    public void cupidsArrow() {
-        this.menWithBadTemper.HeFellInLove();
-        this.womanWithBadTemper.SheFellInLove();
 
+    @Override
+    public void cupidsArrowForHim() {
+        this.menWithBadTemper.HeFellInLove();
     }
 
     @Override
-    public void gotBetter() {
+    public void gotBetterForHim() {
         this.menWithBadTemper.HeGottenBetter();
+    }
+
+    @Override
+    public void cupidsArrowForHer() {
+        this.womanWithBadTemper.SheFellInLove();
+    }
+
+    @Override
+    public void gotBetterForHer() {
         this.womanWithBadTemper.SheGottenBetter();
-
-
     }
 }
