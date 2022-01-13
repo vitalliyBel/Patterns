@@ -1,9 +1,9 @@
 package decorator;
 
-public class AnExperiencedWitcherDec extends TheWitcherDecor{
+public class TheWitcherExperienceDec extends TheWitcherDecor{
 
 
-    public AnExperiencedWitcherDec(TheWitcher witcher) {
+    public TheWitcherExperienceDec(TheWitcher witcher) {
         super(witcher);
     }
 

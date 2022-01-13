@@ -1,8 +1,11 @@
 package com.company;
 
+import decorator.TheNoviceWitcher;
+import decorator.TheWitcher;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("123");
+        TheWitcher noviceWitcher = new TheNoviceWitcher();
     }
 }
