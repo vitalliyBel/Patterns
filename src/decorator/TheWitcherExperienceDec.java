@@ -8,7 +8,7 @@ public class TheWitcherExperienceDec extends TheWitcherDecor{
     }
 
      String ExperiencedWitcherLook = "white beard, scarred face";
-     String ExperiencedWitcherSigns = "Quen"+"/n"+"Yerden";
+     String ExperiencedWitcherSigns = "\n Quen \n Yerden";
      int ExperiencedWitcherStrength = 75;
      int ExperiencedWitcherDexterity = 65;
 

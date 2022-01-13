@@ -2,8 +2,8 @@ package decorator;
 
 public class TheNoviceWitcher implements TheWitcher {
 
-    private String whatDoesTheNoviceWitcherLookLike = "White hair, cat eyes";
-    private String signsOfTheNoviceWitcher = "Aard"+"/n"+"Igni"+"/n"+"Axii";
+    private String whatDoesTheNoviceWitcherLookLike = "White hair, cat eyes, ";
+    private String signsOfTheNoviceWitcher = "Aard \n Igni \n Axii";
 
     private int strength = 30;
     private int dexterity = 25;
