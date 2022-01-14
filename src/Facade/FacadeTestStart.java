@@ -2,7 +2,6 @@ package Facade;
 
 public class FacadeTestStart {
     public static void main(String[] args) {
-
        GlonasInfo glonasInfo = new GlonasInfo();
        RestaurantRating restaurantRating = new RestaurantRating();
        BookingTable bookingTable = new BookingTable();
