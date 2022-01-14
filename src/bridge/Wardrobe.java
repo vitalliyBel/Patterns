@@ -1,12 +1,14 @@
 package bridge;
 
-public class Table  extends Furniture{
-    protected Table(Color color) {
+public class Wardrobe extends Furniture{
+
+    protected Wardrobe(Color color) {
         super(color);
     }
 
     @Override
     public void paint() {
+
         color.paint();
 
     }
