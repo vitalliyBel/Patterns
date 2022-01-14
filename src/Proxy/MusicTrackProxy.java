@@ -10,13 +10,13 @@ public class MusicTrackProxy implements MusicTrack{
 
     private String musicGenre;
 
-    private int musicTrackRating;
+    private String linkToMusic;
 
-    public MusicTrackProxy (String musicTrackName,String artistName,String musicGenre, int musicTrackRating){
+    public MusicTrackProxy (String musicTrackName,String artistName,String musicGenre, String linkToMusic){
         this.musicTrackName = musicTrackName;
         this.artistName = artistName;
         this.musicGenre = musicGenre;
-        this.musicTrackRating = musicTrackRating;
+        this.linkToMusic = linkToMusic;
 
 
     }
@@ -26,7 +26,7 @@ public class MusicTrackProxy implements MusicTrack{
     public void screenInformation() {
 
         if (musicTrackActual == null){
-            musicTrackActual = new MusicTrackActual(musicTrackName,artistName,musicGenre,musicTrackRating);
+            musicTrackActual = new MusicTrackActual(musicTrackName,artistName,musicGenre,linkToMusic);
         }
 
         musicTrackActual.screenInformation();

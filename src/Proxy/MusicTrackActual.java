@@ -8,28 +8,29 @@ public class MusicTrackActual implements MusicTrack {
 
     private String musicGenre;
 
-    private int musicTrackRating;
+    private String linkToMusic;
 
-    public MusicTrackActual (String musicTrackName,String artistName,String musicGenre, int musicTrackRating){
+    public MusicTrackActual (String musicTrackName,String artistName,String musicGenre, String linkToMusic){
         this.musicTrackName = musicTrackName;
         this.artistName = artistName;
         this.musicGenre = musicGenre;
-        this.musicTrackRating = musicTrackRating;
-        musicTrackNameLoad(musicTrackName, artistName, musicGenre,musicTrackRating);
+        this.linkToMusic = linkToMusic;
+        musicTrackNameLoadFromArchive(musicTrackName, artistName, musicGenre,linkToMusic);
 
     }
 
 
     @Override
     public void screenInformation() {
-        System.out.println("information about a music track" + musicTrackName + artistName + musicGenre
-                + musicTrackRating);
+        System.out.println("information about a music track : " + musicTrackName + artistName + musicGenre
+                + linkToMusic);
 
     }
 
-    private void musicTrackNameLoad(String musicTrackName, String artistName, String musicGenre, int musicTrackRating) {
-        System.out.println("Downloading information about a music track" + musicTrackName + artistName
-                + musicGenre + musicTrackRating);
+    private void musicTrackNameLoadFromArchive(String musicTrackName, String artistName, String musicGenre,
+                                               String linkToMusic) {
+        System.out.println("Downloading information about a music track: " + musicTrackName + artistName
+                + musicGenre + linkToMusic);
     }
 
 
