@@ -1,19 +1,29 @@
 package Flyweight;
 
-public class StarshipTrooper implements StarWarrior{
 
-    @Override
-    public void run() {
+    public class StarshipTrooper implements StarWarrior {
 
-        String starshipTrooperRun = "Бежит к месту сражения";
-        System.out.println(starshipTrooperRun);
+        public void landingTroops(){
 
+            String starshipLandingTroops = "Высадка в заданную точку";
+            System.out.println(starshipLandingTroops);
+        }
+
+
+        @Override
+        public void run() {
+
+            String starshipTrooperRun = "Бежит к месту сражения";
+            System.out.println(starshipTrooperRun);
+
+        }
+
+        @Override
+        public void shoot () {
+            String starshipTrooperShoot = "Стреляет из плазменной винтовки";
+            System.out.println(starshipTrooperShoot);
+
+        }
     }
 
-    @Override
-    public void shoot() {
-        String starshipTrooperShoot = "Стреляет из плазменной винтовки";
-        System.out.println(starshipTrooperShoot);
 
-    }
-}
