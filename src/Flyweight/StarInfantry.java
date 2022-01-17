@@ -2,22 +2,27 @@ package Flyweight;
 
 public class StarInfantry implements StarWarrior{
 
-
+    @Override
     public void singBattleSong(){
-        String starInfantrySing = "Поют песню для поднятия боевого духа";
+        String starInfantrySing = "Пехота поет песню для поднятия боевого духа";
         System.out.println(starInfantrySing);
+    }
+
+    @Override
+    public void landingTroops() {
+
     }
 
 
     @Override
     public void run() {
-        String starInfantryRun = "Бежит к месту сражения";
+        String starInfantryRun = "Пехота бежит к месту сражения";
         System.out.println(starInfantryRun);
     }
 
     @Override
     public void shoot() {
-        String starInfantryShoot = "Стреляет из лазерной винтовки";
+        String starInfantryShoot = "Пехота стреляет из лазерной винтовки";
         System.out.println(starInfantryShoot);
 
     }
