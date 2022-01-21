@@ -1,4 +1,4 @@
-package Prototype;
+package prototype;
 
 public class DrinkFactory {
     Drink drink;

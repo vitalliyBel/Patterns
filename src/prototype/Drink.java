@@ -1,4 +1,4 @@
-package Prototype;
+package prototype;
 
 public class Drink implements Copy{
    private String typeDrink;
